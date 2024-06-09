@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-area {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#player, #falling-object {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#player {
+    background-color: blue;
+    bottom: 10px;
+    left: 175px;
+}
+
+#falling-object {
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+}
